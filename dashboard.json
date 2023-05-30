@@ -1,0 +1,34 @@
+{
+  "title": "Applied Ai LLM Ecosystem",
+  "version": "2.2",
+  "settings": {
+    "pagenumber": 0,
+    "editable": true,
+    "fullscreenEnabled": false,
+    "parameters": {}
+  },
+  "pages": [
+    {
+      "title": "Main Page",
+      "reports": [
+        {
+          "title": "LLM and Dependent Datasets",
+          "query": "MATCH p=()-[:`m-d`]->() RETURN p;\n\n\n",
+          "width": 12,
+          "height": 3,
+          "x": 0,
+          "y": 0,
+          "type": "graph",
+          "selection": {
+            "models": "name",
+            "datasets": "name",
+            "applications": "name"
+          },
+          "settings": {}
+        }
+      ]
+    }
+  ],
+  "parameters": {},
+  "extensions": {}
+}
